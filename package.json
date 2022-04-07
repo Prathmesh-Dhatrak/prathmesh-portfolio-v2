@@ -1,6 +1,7 @@
 {
   "name": "prathmesh-portfolio-v2",
   "author": "Prathmesh-Dhatrak",
+  "homepage": "http://prathmeshdhatrak.com",
   "version": "2.0.0",
   "private": true,
   "dependencies": {
