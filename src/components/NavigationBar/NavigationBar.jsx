@@ -83,7 +83,9 @@ export default function NavigationBar() {
             </ul>
           </div>
 
-          <Button link='https://1drv.ms/b/s!AnRRdVvoe_29kUND8Wo-4xou5pnC'>Résumé</Button>
+          <Button link='https://drive.google.com/file/d/1v87OjMVXXH3ExKe9zfcFsXAcoskNG8bd/view?usp=sharing'>
+            Résumé
+          </Button>
         </div>
       </Fade>
     </nav>
