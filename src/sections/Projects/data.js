@@ -83,8 +83,6 @@ const towMeterSquare = {
     'User Login and Registration System',
     'Admin Dashboard',
     'Categories CRUD',
-    'Sub Categories CRUD',
-    'View Placed Orders',
     'Payment with Stripe',
     'Star Rating System',
     'Multiple Image Uploads',
