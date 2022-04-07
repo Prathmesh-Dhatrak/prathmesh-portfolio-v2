@@ -1,0 +1,24 @@
+import React from 'react';
+import classes from './social.module.scss';
+
+export default function SocialLinks() {
+  return (
+    <div className={classes.social}>
+      <a href='mailto: prathmesh101dhatrak@gmail.com' target={'_blank'} className='icon' rel='noreferrer'>
+        &#xe910;
+      </a>
+      <a href='https://github.com/Prathmesh-Dhatrak' target={'_blank'} className='icon' rel="noreferrer">
+        &#xe908;
+      </a>
+      <a href='https://twitter.com/PrathmeshSanto2' target={'_blank'} className='icon' rel="noreferrer">
+        &#xe912;
+      </a>
+      <a href='https://www.linkedin.com/in/prathmeshsd/' target={'_blank'} className='icon' rel="noreferrer">
+        &#xe90a;
+      </a>
+      <a href='https://www.instagram.com/hellioncoder/' target={'_blank'} className='icon' rel="noreferrer">
+        &#xe90e;
+      </a>
+    </div>
+  );
+}
