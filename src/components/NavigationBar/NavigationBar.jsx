@@ -70,11 +70,11 @@ export default function NavigationBar() {
                   Statistics
                 </a>
               </li>
-              <li className={classes.nav__item}>
+              {/* <li className={classes.nav__item}>
                 <a className={classes.nav__link} onClick={handleHamClose} href='#contact'>
                   Contact
                 </a>
-              </li>
+              </li> */}
 
               <li className={classes.hamCloseBtn} onClick={handleHamClose}>
                 <span className='icon icon-arrow-thin-right'></span>
