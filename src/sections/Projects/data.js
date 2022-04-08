@@ -88,7 +88,7 @@ const towMeterSquare = {
     'Multiple Image Uploads',
     'Products CRUD'
   ],
-  techStack: ['React JS', 'Redux', 'Firebase Authentication', 'MongoDB API', 'Firebase Auth Check', 'Add to Cart'],
+  techStack: ['React JS', 'Redux', 'Firebase', 'MongoDB',],
   link: 'https://twometersquare.netlify.app/',
   repo: 'https://github.com/Prathmesh-Dhatrak/client'
 };
