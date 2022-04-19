@@ -49,7 +49,7 @@ const friendsZone = {
 };
 
 const friendsDrive = {
-  title: 'Firend Drive - Photos Dirve',
+  title: 'Friend Drive - Photos Dirve',
   type: 'Featured project',
   logo: friendsDriveLogo,
   images: {
@@ -70,14 +70,14 @@ const friendsDrive = {
 };
 
 const towMeterSquare = {
-  title: 'Two Meter Square - MERN Stack Ecommers Website',
+  title: 'Two Meter Square - MERN Stack Ecommerce Website',
   type: 'Collaborated project',
   logo: TowMeterSquareLogo,
   images: {
     light: { small: TowMeterSquareMobile, large: TowMeterSquareMobile },
     dark: { small: TowMeterSquareMobile, large: TowMeterSquareMobile }
   },
-  description: 'The Ecommers website for TowMeterSquare Shop. Built with React.',
+  description: 'The Ecommerce website for TowMeterSquare Shop. Built with React.',
   features: [
     'Search products',
     'User Login and Registration System',
