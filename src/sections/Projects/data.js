@@ -4,7 +4,7 @@ import { TowMeterSquareLogo, TowMeterSquareMobile } from '../../images/TowMeterS
 import { FriendZone, FriendZoneLogo } from '../../images/FriendZone';
 
 const secufer = {
-  title: 'Serufer App',
+  title: 'Secufer App',
   type: 'Collaborated project',
   logo: SecuferLogo,
   images: {
