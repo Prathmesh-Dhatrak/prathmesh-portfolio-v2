@@ -4,7 +4,7 @@ import { TowMeterSquareLogo, TowMeterSquareMobile } from '../../images/TowMeterS
 import { FriendZone, FriendZoneLogo } from '../../images/FriendZone';
 
 const secufer = {
-  title: 'Serufer App',
+  title: 'Secufer App',
   type: 'Collaborated project',
   logo: SecuferLogo,
   images: {
@@ -44,7 +44,7 @@ const friendsZone = {
     'Reaction on messages'
   ],
   techStack: ['React JS', 'Firebase', 'Material UI', 'React Icons'],
-  link: 'https://friends-zone-12.netlify.app',
+  link: 'https://friends-zone.prathmeshdhatrak.com/',
   repo: 'https://github.com/Prathmesh-Dhatrak/friend-zone'
 };
 
@@ -65,7 +65,7 @@ const friendsDrive = {
     'Download Photos'
   ],
   techStack: ['React JS', 'Firebase', 'Material UI', 'Redux'],
-  link: 'https://friend-drive-12.netlify.app/',
+  link: 'https://friend-drive.prathmeshdhatrak.com/',
   repo: 'https://github.com/Prathmesh-Dhatrak/friend-drive'
 };
 
