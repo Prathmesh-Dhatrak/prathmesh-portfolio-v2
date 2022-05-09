@@ -98,7 +98,7 @@
         }
 
         &:hover {
-          background-color: $color-primary-dark;
+          background-color: $color-primary-main;
 
           @include theme(dark) {
             background-color: $color-primary-main;
@@ -160,7 +160,7 @@
 .techItem {
   font-family: $font-mono;
   font-size: 1.2rem;
-  color: $color-slate-light-4;
+  color: $color-slate-light-3;
 
   @include theme(dark) {
     color: $color-slate-light-3;
@@ -191,7 +191,7 @@
 
     &:hover {
       transform: translateX(0.5rem);
-      color: $color-primary-main;
+      color: lighten($color-primary-light, 2%);
 
       @include theme(dark) {
         color: lighten($color-primary-light, 2%);
@@ -203,7 +203,7 @@
       display: inline-block;
       margin-right: 0.5rem;
       font-family: 'Icomoon' !important;
-      color: $color-primary-dark;
+      color: $color-primary-light;
 
       @include theme(dark) {
         color: $color-primary-light;

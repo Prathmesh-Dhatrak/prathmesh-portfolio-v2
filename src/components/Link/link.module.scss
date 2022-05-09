@@ -7,7 +7,7 @@
   font-size: inherit;
   text-decoration: none;
   display: inline-block;
-  color: $color-primary-dark;
+  color: $color-primary-light;
   transition: 0.2s all;
   position: relative;
 
@@ -28,7 +28,7 @@
   }
 
   &:hover {
-    color: $color-primary-dark !important;
+    color: $color-primary-light !important;
 
     @include theme(dark) {
       color: $color-primary-light !important;

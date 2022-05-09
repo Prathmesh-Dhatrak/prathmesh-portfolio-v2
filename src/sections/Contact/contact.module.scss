@@ -65,7 +65,7 @@
     color: inherit;
     font-size: 2rem;
     background-color: transparent;
-    border: 2px solid $color-primary-dark;
+    border: 2px solid $color-primary-main;
     border-radius: $radius-small;
     transition: all 0.2s;
 
@@ -87,7 +87,7 @@
     &:focus {
       outline: none;
       box-shadow: 0 0 0.6rem $color-primary-dark;
-      background-color: $color-slate-light-1;
+      background-color: $color-slate-dark-5;
 
       @include theme(dark) {
         background-color: $color-slate-dark-5;
