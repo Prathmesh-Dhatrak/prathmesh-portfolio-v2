@@ -10,7 +10,7 @@
   width: 100vw;
   display: grid;
   place-items: center;
-  background-color: $color-white;
+  background-color: $color-slate-dark-5;
   z-index: 10000;
 
   @include theme(dark) {
@@ -70,7 +70,7 @@
     height: 0.5rem;
     position: relative;
     top: 2rem;
-    background-color: $color-slate-light-2;
+    background-color: $color-slate-dark-3;
     overflow: hidden;
     animation-name: fadeAppear;
     animation-duration: 1s;

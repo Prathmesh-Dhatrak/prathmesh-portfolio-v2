@@ -11,7 +11,7 @@
   cursor: pointer;
 
   &:hover {
-    background-color: $color-slate-light-1;
+    background-color: $color-slate-dark-2;
 
     @include theme(dark) {
       background-color: $color-slate-dark-2;

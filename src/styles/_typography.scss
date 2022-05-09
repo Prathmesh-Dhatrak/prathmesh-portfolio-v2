@@ -13,7 +13,7 @@ h4 {
 
 h1 {
   font-size: 5.4rem;
-  color: $color-slate-dark-3;
+  color: $color-white;
 
   @include theme(dark) {
     color: $color-white;
@@ -35,7 +35,7 @@ h2 {
 
 h3 {
   font-size: 4.2rem;
-  color: $color-slate-dark-3;
+  color: $color-white;
 
   @include theme(dark) {
     color: $color-white;
@@ -48,7 +48,7 @@ h3 {
 
 h4 {
   font-size: 3.6rem;
-  color: $color-slate-dark-3;
+  color: $color-slate-light-2;
 
   @include theme(dark) {
     color: $color-slate-light-2;
@@ -62,7 +62,7 @@ h4 {
 h5,
 h6 {
   font-family: $font-mono;
-  color: $color-primary-dark;
+  color: $color-primary-light;
 
   @include theme(dark) {
     color: $color-primary-light;
@@ -84,7 +84,7 @@ body,
 li {
   font-size: 1.7rem;
   line-height: 1.6em;
-  color: $color-slate-dark-4;
+  color: $color-slate-light-2;
 
   @include theme(dark) {
     color: $color-slate-light-2;
@@ -95,7 +95,7 @@ li {
   font-size: 1.2rem;
   font-weight: 500;
   font-family: $font-mono;
-  color: $color-primary-dark;
+  color: $color-primary-light;
 
   @include theme(dark) {
     color: $color-primary-light;
