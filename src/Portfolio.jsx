@@ -20,8 +20,8 @@ export default function Portfolio() {
         <Hero />
         <About />
         <Projects />
-        {/* <OtherProjects /> */}
         <Statistics />
+        {/* <OtherProjects /> */}
         {/* <Contact /> */}
       </main>
       <Footer />
