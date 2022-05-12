@@ -21,8 +21,6 @@ export default function Portfolio() {
         <About />
         <Projects />
         <Statistics />
-        {/* <OtherProjects /> */}
-        {/* <Contact /> */}
       </main>
       <Footer />
     </>
