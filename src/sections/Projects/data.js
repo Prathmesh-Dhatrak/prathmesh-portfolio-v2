@@ -22,7 +22,7 @@ const secufer = {
     'Connecting Buyer & Seller'
   ],
   techStack: ['React Native', 'REST API', 'WhatsApp Business API', 'Figma UI'],
-  link: 'https://secuferapp-landing.vercel.app/',
+  link: 'https://secuferapp.prathmeshdhatrak.com/',
   repo: 'https://github.com/secufer/serufer-app'
 };
 
