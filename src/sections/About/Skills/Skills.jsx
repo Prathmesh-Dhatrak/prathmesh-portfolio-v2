@@ -108,7 +108,7 @@ export default function Skills() {
           <span className='tooltip'>styled-components</span>
         </span>
 
-        <span className='logo logo-mongodb'>
+        {/* <span className='logo logo-mongodb'>
           <span className='path1'></span>
           <span className='path2'></span>
           <span className='path3'></span>
@@ -131,7 +131,7 @@ export default function Skills() {
 
         <span className='logo logo-mysql'>
           <span className='tooltip'>MySQL</span>
-        </span>
+        </span> */}
 
         <span className='logo logo-figma'>
           <svg width='25' viewBox='0 0 70 100' fill='none' xmlns='http://www.w3.org/2000/svg'>
