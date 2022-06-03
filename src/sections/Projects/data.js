@@ -65,7 +65,6 @@ const friendsDrive = {
     'Download Photos'
   ],
   techStack: ['React JS', 'Firebase', 'Material UI', 'Redux'],
-  link: 'https://friend-drive.prathmeshdhatrak.com/',
   repo: 'https://github.com/Prathmesh-Dhatrak/friend-drive'
 };
 
