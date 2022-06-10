@@ -16,7 +16,7 @@ export default function SocialLinks() {
       <a href='https://www.linkedin.com/in/prathmeshsd/' target={'_blank'} className='icon' rel="noreferrer">
         &#xe90a;
       </a>
-      <a href='https://www.instagram.com/hellioncoder/' target={'_blank'} className='icon' rel="noreferrer">
+      <a href='https://www.instagram.com/prathmesh007world/' target={'_blank'} className='icon' rel="noreferrer">
         &#xe90e;
       </a>
     </div>
