@@ -10,7 +10,7 @@ export default function SocialLinks() {
       <a href='https://github.com/Prathmesh-Dhatrak' target={'_blank'} className='icon' rel="noreferrer">
         &#xe908;
       </a>
-      <a href='https://twitter.com/PrathmeshSanto2' target={'_blank'} className='icon' rel="noreferrer">
+      <a href='https://twitter.com/Prathmesh007_SD' target={'_blank'} className='icon' rel="noreferrer">
         &#xe912;
       </a>
       <a href='https://www.linkedin.com/in/prathmeshsd/' target={'_blank'} className='icon' rel="noreferrer">
