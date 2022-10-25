@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-import { Loader, Hero, About, Projects, Statistics, Footer } from 'sections';
+import { Loader, Hero, About, Projects, Statistics, Footer, Blogs } from 'sections';
 import { NavigationBar } from 'components';
 
 export default function Portfolio() {
@@ -20,8 +20,8 @@ export default function Portfolio() {
         <Hero />
         <About />
         <Projects />
+        <Blogs />
         <Statistics />
-        {/* <OtherProjects /> */}
         {/* <Contact /> */}
       </main>
       <Footer />

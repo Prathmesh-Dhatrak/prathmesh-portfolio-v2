@@ -27,7 +27,7 @@ export default function Hero() {
       </div>
 
       <div role='img' className={classes.waterMark}>
-        DEV
+        (PD)
       </div>
 
       <div className={classes.quickContact}>
