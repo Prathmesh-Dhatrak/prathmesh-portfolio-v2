@@ -17,7 +17,8 @@ export default function Hero() {
           <span> Dhatrak</span>
         </h1>
         <h2 className={classes.info}>
-          I like building things on the web.<br />I do that by using JavaScript and a lot of coffee
+          I like building things on the web.
+          <br />I do that by using JavaScript and a lot of coffee
           <span role='img' aria-label='coffee emoji'>
             ☕
           </span>

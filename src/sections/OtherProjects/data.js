@@ -30,8 +30,7 @@ const otherProjects = [
       'A Chrome extension to keep track of your LeetCode progress. I have worked on the UI of the extension.',
     technology: 'Chrome Extension - SCSS',
     repo: 'https://github.com/VarthanV/LeetCode-Time-Tracker',
-    link:
-      'https://chrome.google.com/webstore/detail/leetcode-time-tracker/obcihoolahbncgakepoceagnjnfgghhl?hl=en&authuser=0'
+    link: 'https://chrome.google.com/webstore/detail/leetcode-time-tracker/obcihoolahbncgakepoceagnjnfgghhl?hl=en&authuser=0'
   },
   {
     title: 'Meow Meow Cat',

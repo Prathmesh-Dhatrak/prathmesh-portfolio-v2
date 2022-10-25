@@ -31,7 +31,7 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
   background-color: $color-slate-dark-5;
-    color: $color-slate-light-1;
+  color: $color-slate-light-1;
 
   @include theme(dark) {
     background-color: $color-slate-dark-5;
