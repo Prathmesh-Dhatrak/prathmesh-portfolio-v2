@@ -44,7 +44,7 @@ export default function NavigationBar() {
               className={classes.nav__logo}
               src={LogoSmall}
               srcSet={`${LogoSmall} 300w, ${LogoLarge} 600w`}
-              alt='Krish'
+              alt='PD'
             />
           </a>
 
@@ -70,11 +70,11 @@ export default function NavigationBar() {
                   Statistics
                 </a>
               </li>
-              {/* <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#contact'>
-                  Contact
+              <li className={classes.nav__item}>
+                <a className={classes.nav__link} onClick={handleHamClose} href='#blogs'>
+                  Blogs
                 </a>
-              </li> */}
+              </li>
 
               <li className={classes.hamCloseBtn} onClick={handleHamClose}>
                 <span className='icon icon-arrow-thin-right'></span>

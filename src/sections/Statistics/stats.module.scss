@@ -3,7 +3,7 @@
 @import '../../styles/typography';
 
 .statistics {
-  @include sectionStyles(even);
+  @include sectionStyles(odd);
 
   &__container {
     display: grid;
