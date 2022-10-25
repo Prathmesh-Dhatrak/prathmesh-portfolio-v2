@@ -19,8 +19,7 @@ const blogs = [
     technology: 'JavaScript',
     description:
       'So this is a series of blogs in which I try to explain different types of Frontend Development concepts.',
-    link: 'https://blog.prathmeshdhatrak.com/understanding-js-concepts-part-2',
-    repo: 'https://github.com/PDnaMoorthy12/ya-image-converter'
+    link: 'https://blog.prathmeshdhatrak.com/understanding-js-concepts-part-2'
   },
   {
     title: 'Understanding JS concepts: Part 1',
