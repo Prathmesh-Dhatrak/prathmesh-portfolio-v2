@@ -7,10 +7,10 @@ import blogs from './data';
 
 export default function Blogs() {
   return (
-    <section className={classes.Blogs}>
+    <section className={classes.blogs} id='blogs'>
       <div className={classes.container}>
         <h3 className={classes.heading}>Blogs</h3>
-        <div className={classes.Blogs__list}>
+        <div className={classes.blogs__list}>
           <Fade bottom>
             {blogs.map((project, index) => {
               const { title, type, technology, description, link, repo } = project;

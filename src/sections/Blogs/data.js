@@ -20,7 +20,7 @@ const blogs = [
     description:
       'So this is a series of blogs in which I try to explain different types of Frontend Development concepts.',
     link: 'https://blog.prathmeshdhatrak.com/understanding-js-concepts-part-2',
-    repo: 'https://github.com/KrishnaMoorthy12/ya-image-converter'
+    repo: 'https://github.com/PDnaMoorthy12/ya-image-converter'
   },
   {
     title: 'Understanding JS concepts: Part 1',
@@ -46,13 +46,18 @@ const blogs = [
     title: 'Understanding webpack and different Module Bundlers?',
     technology: 'Webpack',
     description:
-      'So when I started learning react js framework. I simply started with CRA and that'+'\''+'s why never understood the need for Module-Bundler like webpack.',
+      'So when I started learning react js framework. I simply started with CRA and that' +
+      '\'' +
+      's why never understood the need for Module-Bundler like webpack.',
     link: 'https://blog.prathmeshdhatrak.com/understanding-webpack'
   },
   {
     title: 'How to add a countdown section with dynamic content changing from an array of objects?',
     technology: 'JavaScript',
-    description: 'While I was working on developing tedxvitpune.in 2022 website we had to create a Days Countdown section. But the problem was that the countdown design was too complicated to develop with just Font styling CSS. We had to create an array and change the day'+'\''+'s images from the array every day manually.',
+    description:
+      'While I was working on developing tedxvitpune.in 2022 website we had to create a Days Countdown section. But the problem was that the countdown design was too complicated to develop with just Font styling CSS. We had to create an array and change the day' +
+      '\'' +
+      's images from the array every day manually.',
     link: 'https://blog.prathmeshdhatrak.com/how-to-add-countdown-section'
   }
 ];
