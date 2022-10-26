@@ -2,7 +2,7 @@ import React from 'react';
 import classes from './blogs.module.scss';
 import Fade from 'react-reveal/Fade';
 
-import { Blog } from 'components';
+import { Blog, Button } from 'components';
 import blogs from './data';
 
 export default function Blogs() {
@@ -21,6 +21,9 @@ export default function Blogs() {
               );
             })}
           </Fade>
+          <div className={classes.blogs__list__action}>
+            <Button link='https://blog.prathmeshdhatrak.com'>Show All Blogs</Button>
+          </div>
         </div>
       </div>
     </section>
