@@ -32,21 +32,12 @@ const cinemagram = {
     'Search Feature'
   ],
   techStack: [
-    'React',
+    'React/TypeScript',
     'Node',
-    'TypeScript',
     'MongoDB',
     'Redux',
-    'Mongoose',
-    'Redux-Saga',
-    'SocketIO',
-    'React Router',
-    'Express JS',
     'TailwindCSS',
     'Passport JS',
-    'PostCSS',
-    'Google Cloud Storage',
-    'Axios'
   ],
   link: 'https://cinemagram.prathmeshdhatrak.com/',
   repo: 'https://github.com/Prathmesh-Dhatrak/cinemagram'
