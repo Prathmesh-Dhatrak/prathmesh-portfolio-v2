@@ -56,23 +56,23 @@ export default function NavigationBar() {
 
             <ul className={classes.nav__list}>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#about'>
-                  About
-                </a>
-              </li>
-              <li className={classes.nav__item}>
                 <a className={classes.nav__link} onClick={handleHamClose} href='#projects'>
                   Projects
                 </a>
               </li>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#statistics'>
-                  Statistics
+                <a className={classes.nav__link} onClick={handleHamClose} href='#blogs'>
+                  Blogs
                 </a>
               </li>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#blogs'>
-                  Blogs
+                <a className={classes.nav__link} onClick={handleHamClose} href='#about'>
+                  About
+                </a>
+              </li>
+              <li className={classes.nav__item}>
+                <a className={classes.nav__link} onClick={handleHamClose} href='#statistics'>
+                  Statistics
                 </a>
               </li>
 
