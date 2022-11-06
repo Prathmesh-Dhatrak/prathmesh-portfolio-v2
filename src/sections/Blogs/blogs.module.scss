@@ -2,7 +2,7 @@
 @import '../../styles/variables';
 
 .blogs {
-  @include sectionStyles(even);
+  @include sectionStyles(odd);
 
   .heading {
     margin-bottom: $margin-medium;

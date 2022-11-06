@@ -2,7 +2,7 @@
 @import '../../styles/variables';
 
 .projects {
-  @include sectionStyles(odd);
+  @include sectionStyles(even);
 
   .heading {
     text-align: center;
