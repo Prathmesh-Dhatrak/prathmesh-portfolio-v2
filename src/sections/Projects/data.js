@@ -37,7 +37,7 @@ const cinemagram = {
     'MongoDB',
     'Redux',
     'TailwindCSS',
-    'Passport JS',
+    'Passport JS'
   ],
   link: 'https://cinemagram.prathmeshdhatrak.com/',
   repo: 'https://github.com/Prathmesh-Dhatrak/cinemagram'
