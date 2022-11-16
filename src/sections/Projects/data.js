@@ -12,24 +12,24 @@ import { FriendZone, FriendZoneLogo } from '../../images/FriendZone';
 import { Cinemagram, CinemagramLogo } from '../../images/Cinemagram';
 
 const cinemagram = {
-  title: 'Cinemagram - Community Platform',
-  type: 'Featured project',
+  title: 'Cinemagram - Community platform',
+  type: 'Collaborated project',
   logo: CinemagramLogo,
   images: {
     light: { small: Cinemagram, large: Cinemagram },
     dark: { small: Cinemagram, large: Cinemagram }
   },
   description:
-    'Cinemagram Web app is Community Platform for Cinema buffs. A facebook/instagram-like inspired social media application.',
+    'Cinemagram is social media for cinema buffs where people can connect with other movie fans discussing films, movies and TV series.',
   features: [
     'Login and Registration',
     'Notification',
-    'Private Messaging',
+    'Private messaging',
     'Post CRUD functionality',
     'Comment feature',
-    'Profile Customization',
+    'Profile customization',
     'Followers/Following feature',
-    'Search Feature'
+    'Search feature'
   ],
   techStack: [
     'React/TypeScript',
@@ -44,7 +44,7 @@ const cinemagram = {
 };
 
 const secufer = {
-  title: 'Secufer App',
+  title: 'Secufer - Android app',
   type: 'Collaborated project',
   logo: SecuferLogo,
   images: {
@@ -52,14 +52,13 @@ const secufer = {
     dark: { small: SecuferDashboard, large: SecuferDashboard }
   },
   description:
-    'Secufer App is designed for a purpose that there should be a carefree environment while online shopping or transacting with someone who you dont trust much.',
+    'Secufer is a escrow service mobile application for freelancers who want to do safe online transactions with their clients.',
   features: [
-    'Authentication system',
-    'Creating User Profile',
-    'Creating Authenticated Transactions',
-    'Creating Request Links',
-    'Joining Transactions',
-    'Connecting Buyer & Seller'
+    'Login and Registration',
+    'User profile customization',
+    'Transactions create/accept links',
+    'Authenticating transactions',
+    'Connecting users on whatsApp'
   ],
   techStack: ['React Native', 'REST API', 'WhatsApp Business API', 'Figma UI'],
   link: 'https://secuferapp.prathmeshdhatrak.com/',
@@ -75,14 +74,13 @@ const friendsZone = {
     dark: { small: FriendZone, large: FriendZone }
   },
   description:
-    'A fun and easy to use Chat Room or workspace where friends can share resources and hang around.',
+    'A fun and easy to use chat room or workspace where friends can share resources and hang around.',
   features: [
-    'Easy SignIn with Google',
-    'Create Rooms',
+    'Login and Registration with Google',
+    'Rooms/Group CRUD functionality',
     'Realtime group messaging',
     'Realtime resources sharing',
-    'Supports Emoji',
-    'Reaction on messages'
+    'Emoji reaction on messages'
   ],
   techStack: ['React JS', 'Firebase', 'Material UI', 'React Icons'],
   link: 'https://friends-zone.prathmeshdhatrak.com/',
@@ -90,14 +88,14 @@ const friendsZone = {
 };
 
 const friendsDrive = {
-  title: 'Friend Drive - Photos Dirve',
+  title: 'Friend Drive - Resources storing app',
   type: 'Featured project',
   logo: friendsDriveLogo,
   images: {
     light: { small: friendsDriveImageSmall, large: friendsDriveImageLarge },
     dark: { small: friendsDriveImageSmall, large: friendsDriveImageLarge }
   },
-  description: 'A fun and easy to use Drive space where you can store Photos.',
+  description: 'A fun and easy to use drive space where you can store photos.',
   features: [
     'Easy SignIn with Google',
     'Upload multiple Photos',
@@ -110,7 +108,7 @@ const friendsDrive = {
 };
 
 const towMeterSquare = {
-  title: 'Two Meter Square - MERN Stack Ecommerce Website',
+  title: 'Two Meter Square - MERN stack e-commerce website',
   type: 'Collaborated project',
   logo: TowMeterSquareLogo,
   images: {
