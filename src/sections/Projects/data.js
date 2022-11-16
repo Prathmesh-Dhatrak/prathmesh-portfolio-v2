@@ -59,7 +59,7 @@ const secufer = {
     'Connecting users on whatsApp'
   ],
   techStack: ['React Native', 'REST API', 'WhatsApp Business API', 'Figma UI'],
-  link: 'https://secuferapp.prathmeshdhatrak.com/',
+  link: 'https://secuferapp-landing.vercel.app/',
   repo: 'https://github.com/secufer/serufer-app'
 };
 
