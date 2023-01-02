@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from 'react';
-import classes from './NavigationBar.module.scss';
-import { Fade } from 'react-reveal';
+import React, { useState, useEffect, useRef } from "react";
+import classes from "./NavigationBar.module.scss";
+import { Fade } from "react-reveal";
 
-import { LogoSmall, LogoLarge } from '../../images/Logo';
-import Button from '../Button';
+import { LogoSmall, LogoLarge } from "../../images/Logo";
+import Button from "../Button";
 
 export default function NavigationBar() {
   const [navStyle, setNavStyle] = useState({});
@@ -11,18 +11,30 @@ export default function NavigationBar() {
   window.onscroll = function (e) {
     if (this.scrollY <= 5) {
       // top of the page
-      setNavStyle({ boxShadow: 'none', paddingBottom: '1.5rem', background: 'none' });
+      setNavStyle({
+        boxShadow: "none",
+        paddingBottom: "1.5rem",
+        background: "none",
+      });
     } else if (this.oldScroll > this.scrollY) {
       // scrolled up
-      setNavStyle({ transform: 'translateY(0)' });
+      setNavStyle({ transform: "translateY(0)" });
     } else {
       // scrolled down
-      setNavStyle({ boxShadow: 'none', transform: 'translateY(-100%)' });
+      setNavStyle({ boxShadow: "none", transform: "translateY(-100%)" });
     }
     this.oldScroll = this.scrollY;
   };
 
-  useEffect(() => setNavStyle({ boxShadow: 'none', paddingBottom: '1.5rem', background: 'none' }), []);
+  useEffect(
+    () =>
+      setNavStyle({
+        boxShadow: "none",
+        paddingBottom: "1.5rem",
+        background: "none",
+      }),
+    []
+  );
 
   const check = useRef(null);
 
@@ -34,56 +46,77 @@ export default function NavigationBar() {
     <nav className={classes.nav} style={navStyle}>
       <Fade top delay={4000} duration={500}>
         <div className={classes.container}>
-          <a href='#about' className={classes.nav__skip}>
+          <a href="#about" className={classes.nav__skip}>
             Skip to main content
           </a>
 
           {/* eslint-disable-next-line */}
-          <a href='#' className={classes.nav__brand}>
+          <a href="#" className={classes.nav__brand}>
             <img
               className={classes.nav__logo}
               src={LogoSmall}
               srcSet={`${LogoSmall} 300w, ${LogoLarge} 600w`}
-              alt='PD'
+              alt="PD"
             />
           </a>
 
           <div className={classes.nav__list_container}>
-            <input ref={check} type='checkbox' className={classes.nav__check} id='nav__check' />
-            <label htmlFor='nav__check' className={classes.nav__toggle}>
+            <input
+              ref={check}
+              type="checkbox"
+              className={classes.nav__check}
+              id="nav__check"
+            />
+            <label htmlFor="nav__check" className={classes.nav__toggle}>
               &nbsp;
             </label>
 
             <ul className={classes.nav__list}>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#projects'>
+                <a
+                  className={classes.nav__link}
+                  onClick={handleHamClose}
+                  href="#projects"
+                >
                   Projects
                 </a>
               </li>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#blogs'>
+                <a
+                  className={classes.nav__link}
+                  onClick={handleHamClose}
+                  href="#blogs"
+                >
                   Blogs
                 </a>
               </li>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#about'>
+                <a
+                  className={classes.nav__link}
+                  onClick={handleHamClose}
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li className={classes.nav__item}>
-                <a className={classes.nav__link} onClick={handleHamClose} href='#statistics'>
+                <a
+                  className={classes.nav__link}
+                  onClick={handleHamClose}
+                  href="#statistics"
+                >
                   Statistics
                 </a>
               </li>
 
               <li className={classes.hamCloseBtn} onClick={handleHamClose}>
-                <span className='icon icon-arrow-thin-right'></span>
+                <span className="icon icon-arrow-thin-right"></span>
                 Close
               </li>
             </ul>
           </div>
 
-          <Button link='https://drive.google.com/file/d/1Tcc8nKpcGVlnqRVCeAUsIQ6OlzD0qIDZ/view?usp=sharing'>
+          <Button link="https://drive.google.com/file/d/1Sf1Wg0NHBFhLXR6EQzVUV_feZoc4Gfrp/view?usp=sharing">
             Resume
           </Button>
         </div>
@@ -91,3 +124,4 @@ export default function NavigationBar() {
     </nav>
   );
 }
+
