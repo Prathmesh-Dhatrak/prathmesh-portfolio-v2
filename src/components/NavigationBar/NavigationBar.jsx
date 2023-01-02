@@ -14,7 +14,7 @@ export default function NavigationBar() {
       setNavStyle({
         boxShadow: 'none',
         paddingBottom: '1.5rem',
-        background: 'none',
+        background: 'none'
       });
     } else if (this.oldScroll > this.scrollY) {
       // scrolled up
@@ -31,7 +31,7 @@ export default function NavigationBar() {
       setNavStyle({
         boxShadow: 'none',
         paddingBottom: '1.5rem',
-        background: 'none',
+        background: 'none'
       }),
     []
   );
