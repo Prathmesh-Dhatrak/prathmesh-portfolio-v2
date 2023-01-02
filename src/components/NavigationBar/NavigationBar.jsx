@@ -1,9 +1,9 @@
-import React, { useState, useEffect, useRef } from "react";
-import classes from "./NavigationBar.module.scss";
-import { Fade } from "react-reveal";
+import React, { useState, useEffect, useRef } from 'react';
+import classes from './NavigationBar.module.scss';
+import { Fade } from 'react-reveal';
 
-import { LogoSmall, LogoLarge } from "../../images/Logo";
-import Button from "../Button";
+import { LogoSmall, LogoLarge } from '../../images/Logo';
+import Button from '../Button';
 
 export default function NavigationBar() {
   const [navStyle, setNavStyle] = useState({});
@@ -12,16 +12,16 @@ export default function NavigationBar() {
     if (this.scrollY <= 5) {
       // top of the page
       setNavStyle({
-        boxShadow: "none",
-        paddingBottom: "1.5rem",
-        background: "none",
+        boxShadow: 'none',
+        paddingBottom: '1.5rem',
+        background: 'none',
       });
     } else if (this.oldScroll > this.scrollY) {
       // scrolled up
-      setNavStyle({ transform: "translateY(0)" });
+      setNavStyle({ transform: 'translateY(0)' });
     } else {
       // scrolled down
-      setNavStyle({ boxShadow: "none", transform: "translateY(-100%)" });
+      setNavStyle({ boxShadow: 'none', transform: 'translateY(-100%)' });
     }
     this.oldScroll = this.scrollY;
   };
@@ -29,9 +29,9 @@ export default function NavigationBar() {
   useEffect(
     () =>
       setNavStyle({
-        boxShadow: "none",
-        paddingBottom: "1.5rem",
-        background: "none",
+        boxShadow: 'none',
+        paddingBottom: '1.5rem',
+        background: 'none',
       }),
     []
   );
@@ -46,28 +46,28 @@ export default function NavigationBar() {
     <nav className={classes.nav} style={navStyle}>
       <Fade top delay={4000} duration={500}>
         <div className={classes.container}>
-          <a href="#about" className={classes.nav__skip}>
+          <a href='#about' className={classes.nav__skip}>
             Skip to main content
           </a>
 
           {/* eslint-disable-next-line */}
-          <a href="#" className={classes.nav__brand}>
+          <a href='#' className={classes.nav__brand}>
             <img
               className={classes.nav__logo}
               src={LogoSmall}
               srcSet={`${LogoSmall} 300w, ${LogoLarge} 600w`}
-              alt="PD"
+              alt='PD'
             />
           </a>
 
           <div className={classes.nav__list_container}>
             <input
               ref={check}
-              type="checkbox"
+              type='checkbox'
               className={classes.nav__check}
-              id="nav__check"
+              id='nav__check'
             />
-            <label htmlFor="nav__check" className={classes.nav__toggle}>
+            <label htmlFor='nav__check' className={classes.nav__toggle}>
               &nbsp;
             </label>
 
@@ -76,7 +76,7 @@ export default function NavigationBar() {
                 <a
                   className={classes.nav__link}
                   onClick={handleHamClose}
-                  href="#projects"
+                  href='#projects'
                 >
                   Projects
                 </a>
@@ -85,7 +85,7 @@ export default function NavigationBar() {
                 <a
                   className={classes.nav__link}
                   onClick={handleHamClose}
-                  href="#blogs"
+                  href='#blogs'
                 >
                   Blogs
                 </a>
@@ -94,7 +94,7 @@ export default function NavigationBar() {
                 <a
                   className={classes.nav__link}
                   onClick={handleHamClose}
-                  href="#about"
+                  href='#about'
                 >
                   About
                 </a>
@@ -103,20 +103,20 @@ export default function NavigationBar() {
                 <a
                   className={classes.nav__link}
                   onClick={handleHamClose}
-                  href="#statistics"
+                  href='#statistics'
                 >
                   Statistics
                 </a>
               </li>
 
               <li className={classes.hamCloseBtn} onClick={handleHamClose}>
-                <span className="icon icon-arrow-thin-right"></span>
+                <span className='icon icon-arrow-thin-right'></span>
                 Close
               </li>
             </ul>
           </div>
 
-          <Button link="https://drive.google.com/file/d/1Sf1Wg0NHBFhLXR6EQzVUV_feZoc4Gfrp/view?usp=sharing">
+          <Button link='https://drive.google.com/file/d/1Sf1Wg0NHBFhLXR6EQzVUV_feZoc4Gfrp/view?usp=sharing'>
             Resume
           </Button>
         </div>
