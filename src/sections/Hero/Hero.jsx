@@ -31,8 +31,8 @@ export default function Hero() {
       </div>
 
       <div className={classes.quickContact}>
-        <Link to='mailto:me@prathmeshdhatrak.com' lone>
-          me@prathmeshdhatrak.com
+        <Link to='mailto:prathmesh101dhatrak@gmail.com' lone>
+          prathmesh101dhatrak@gmail.com
         </Link>
         <Link to='https://github.com/Prathmesh-Dhatrak' lone>
           github.com/Prathmesh-Dhatrak
