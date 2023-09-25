@@ -7,12 +7,12 @@
   "dependencies": {
     "bad-words": "^3.0.4",
     "emailjs-com": "^2.6.4",
-    "sass": "^1.49.11",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "^4.0.3",
     "recharts": "^1.8.5",
+    "sass": "^1.49.11",
     "workbox-core": "^5.1.4",
     "workbox-expiration": "^5.1.4",
     "workbox-precaching": "^5.1.4",
@@ -27,7 +27,7 @@
   "scripts": {
     "format": "prettier --write \"**/*.{js,jsx,html,scss}\"",
     "format:check": "prettier -c \"**/*.{js,jsx,html,scss}\"",
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
   },
