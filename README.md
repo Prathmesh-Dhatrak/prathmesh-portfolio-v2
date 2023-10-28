@@ -1,2 +1,0 @@
-
- --openssl-legacy-provider

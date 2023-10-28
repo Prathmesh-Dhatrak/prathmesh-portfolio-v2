@@ -22,9 +22,10 @@ export default function Portfolio() {
         <Blogs />
         <About />
         <Statistics />
-        {/* <Contact /> */}
       </main>
       <Footer />
     </>
   );
 }
+
+// <Contact /> 
