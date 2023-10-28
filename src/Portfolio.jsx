@@ -22,7 +22,6 @@ export default function Portfolio() {
         <Blogs />
         <About />
         <Statistics />
-
       </main>
       <Footer />
     </>
