@@ -116,7 +116,7 @@ export default function NavigationBar() {
             </ul>
           </div>
 
-          <Button link='https://drive.google.com/file/d/1Sf1Wg0NHBFhLXR6EQzVUV_feZoc4Gfrp/view?usp=sharing'>
+          <Button link='https://drive.google.com/file/d/1hkueWVwYJ4pu-dQjj0z0g1DbW8NmxaV3/view?usp=sharing'>
             Resume
           </Button>
         </div>
